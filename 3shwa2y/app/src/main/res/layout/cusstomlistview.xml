@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/given_id"
+        android:layout_width="140dp"
+        android:layout_height="66dp" />
+
+    <TextView
+        android:id="@+id/taken_id"
+        android:layout_width="140dp"
+        android:layout_height="66dp"
+        android:layout_toRightOf="@+id/given_id"/>
+    <TextView
+        android:id="@+id/numOfpoints"
+        android:layout_width="140dp"
+        android:layout_height="66dp"
+        android:layout_toRightOf="@+id/taken_id"/>
+</RelativeLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background">
+
+
+
+
+
+    <EditText
+        android:id="@+id/Email_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:padding="10dp"
+        android:hint="      Email"
+        android:textColorHint="#fff"
+        android:background="@drawable/edittext_custom"
+        />
+
+
+
+    <EditText
+
+        android:id="@+id/Password_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/edittext_custom"
+        android:hint="      Password"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:textColorHint="#fff" />
+
+
+    <Button
+        android:id="@+id/Log_in"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="22dp"
+        android:layout_centerHorizontal="true"
+        android:text="Login"
+        android:textSize="20dp"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:background="@drawable/buttom_custom"/>
+    <Button
+        android:id="@+id/Forgotten_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:text="Forgotten password?"
+        android:background="@null"
+        android:textAllCaps="false"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/Creat_new_account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:text="Creat New Account"
+        android:textAllCaps="false"
+        android:textColor="#335A7D"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+</LinearLayout>

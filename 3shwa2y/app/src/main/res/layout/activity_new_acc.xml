@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/finalbackground"
+    >
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/user_image"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="100dp"
+            android:src="@drawable/firegold" />
+
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/profile_button"
+            android:layout_marginTop="130dp"
+            android:layout_marginLeft="200dp"
+            android:background="@drawable/buttom_custom2" />
+
+    </RelativeLayout>
+
+
+            <EditText
+                android:id="@+id/U_name"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="80dp"
+                android:layout_marginRight="30dp"
+                android:padding="10dp"
+                android:hint="      User name"
+                android:textColorHint="#fff"
+                android:background="@drawable/edittext_custom"/>
+
+
+
+
+            <EditText
+                android:id="@+id/U_email"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="30dp"
+                android:padding="10dp"
+                android:hint="      Email"
+                android:textColorHint="#fff"
+                android:background="@drawable/edittext_custom"/>
+
+
+
+
+            <EditText
+                android:id="@+id/U_password"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:padding="10dp"
+                android:inputType="textPassword"
+                android:hint="      Password"
+                android:textColorHint="#fff"
+                android:background="@drawable/edittext_custom"
+                />
+
+
+        <Button
+            android:id="@+id/reg_Done"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_centerHorizontal="true"
+            android:text="Sign Up"
+            android:textSize="20dp"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:background="@drawable/buttom_custom"/>
+
+
+</LinearLayout>
